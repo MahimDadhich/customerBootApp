@@ -1,7 +1,6 @@
 package com.cg.apps.entities;
 
 import java.util.Objects;
-import org.springframework.stereotype.Component;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -9,7 +8,7 @@ import javax.persistence.Table;
 import java.util.Objects;
 
 @Table(name="customers")
-@Component
+@Entity
 public class Customer 
 {
 	@GeneratedValue
